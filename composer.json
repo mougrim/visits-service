@@ -1,0 +1,24 @@
+{
+    "name": "mougrim/visits-service",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mougrim\\VisitsService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mougrim",
+            "email": "rinat@mougrim.ru"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.2",
+        "php-di/php-di": "^6.4",
+        "slim/psr7": "^1.6",
+        "slim/slim": "^4.11",
+        "ext-redis": "*",
+        "predis/predis": "^2.0"
+    }
+}
